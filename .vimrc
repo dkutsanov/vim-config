@@ -30,3 +30,8 @@ set ignorecase          " Case insensitive searching
 set smartcase           " Case sensitive if search contains uppercase
 
 set clipboard=unnamed         " Use system clipboard (macOS/Windows)
+
+" Remapping
+inoremap jj <Esc>
+nnoremap J ^
+nnoremap L $
